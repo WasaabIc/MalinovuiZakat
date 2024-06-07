@@ -27,7 +27,7 @@ namespace ConsoleApp2
             {
                 Стипендия = 1500;
             }
-            else if (Оценки.All(o => o == 5))
+            else if (Оценки.Min() == 5)
             {
                 Стипендия = 2500;
             }
